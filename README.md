@@ -1,0 +1,2 @@
+# BinaryReadWrite
+ Simple serializator/deserializator
