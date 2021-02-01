@@ -5,4 +5,4 @@
   FileIOHandler.cpp
   MemIOHandler.cpp
   Generating Code...
-  BinaryReadWrite.vcxproj -> C:\Users\Jana\source\repos\BinaryReadWrite\Debug\BinaryReadWrite.exe
+C:\Users\Jana\source\repos\BinaryReadWrite\BinaryReadWrite\FileIOHandler.cpp : fatal error C1090: PDB API call failed, error code '3': C:\Users\Jana\source\repos\BinaryReadWrite\BinaryReadWrite\Debug\vc142.pdb

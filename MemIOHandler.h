@@ -4,7 +4,7 @@
 #include "IOHandler.h"
 
 /**
-* Class for read/write binary files implements IOHandler to be compatible with BinaryReader/BinaryWriter
+* Class for read/write binary from/to buffer implements IOHandler to be compatible with BinaryReader/BinaryWriter
  */
 class MemIOHandler : public IOHandler
 {
