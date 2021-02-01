@@ -1,0 +1,71 @@
+\hypertarget{class_binary_reader_writer}{}\doxysection{Binary\+Reader\+Writer Class Reference}
+\label{class_binary_reader_writer}\index{BinaryReaderWriter@{BinaryReaderWriter}}
+
+
+{\ttfamily \#include $<$Binary\+Reader\+Writer.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_binary_reader_writer_ab5c75934a53d7056e996016ec56703f4}{Binary\+Reader\+Writer}} (\mbox{\hyperlink{class_i_o_handler}{IOHandler}} $\ast$read\+Handler, \mbox{\hyperlink{class_i_o_handler}{IOHandler}} $\ast$write\+Handler)
+\item 
+\mbox{\hyperlink{class_binary_reader_writer_a2daf5e1cba5f0255c3dfb0e27351d6b9}{$\sim$\+Binary\+Reader\+Writer}} ()
+\item 
+bool \mbox{\hyperlink{class_binary_reader_writer_a5287a80f9e77470702e7d0b909c5fdce}{write}} (\mbox{\hyperlink{class_serializable}{Serializable}} $\ast$src)
+\item 
+\mbox{\hyperlink{class_serializable}{Serializable}} $\ast$ \mbox{\hyperlink{class_binary_reader_writer_a9cd87c59abc0337d3c2a21a4169d4170}{read\+Next}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class returning \mbox{\hyperlink{class_serializable}{Serializable}} instances from their binarized form and writing \mbox{\hyperlink{class_serializable}{Serializable}} instances to binary form 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_binary_reader_writer_ab5c75934a53d7056e996016ec56703f4}\label{class_binary_reader_writer_ab5c75934a53d7056e996016ec56703f4}} 
+\index{BinaryReaderWriter@{BinaryReaderWriter}!BinaryReaderWriter@{BinaryReaderWriter}}
+\index{BinaryReaderWriter@{BinaryReaderWriter}!BinaryReaderWriter@{BinaryReaderWriter}}
+\doxysubsubsection{\texorpdfstring{BinaryReaderWriter()}{BinaryReaderWriter()}}
+{\footnotesize\ttfamily Binary\+Reader\+Writer\+::\+Binary\+Reader\+Writer (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_i_o_handler}{IOHandler}} $\ast$}]{read\+Handler,  }\item[{\mbox{\hyperlink{class_i_o_handler}{IOHandler}} $\ast$}]{write\+Handler }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_binary_reader_writer_a2daf5e1cba5f0255c3dfb0e27351d6b9}\label{class_binary_reader_writer_a2daf5e1cba5f0255c3dfb0e27351d6b9}} 
+\index{BinaryReaderWriter@{BinaryReaderWriter}!````~BinaryReaderWriter@{$\sim$BinaryReaderWriter}}
+\index{````~BinaryReaderWriter@{$\sim$BinaryReaderWriter}!BinaryReaderWriter@{BinaryReaderWriter}}
+\doxysubsubsection{\texorpdfstring{$\sim$BinaryReaderWriter()}{~BinaryReaderWriter()}}
+{\footnotesize\ttfamily Binary\+Reader\+Writer\+::$\sim$\+Binary\+Reader\+Writer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_binary_reader_writer_a9cd87c59abc0337d3c2a21a4169d4170}\label{class_binary_reader_writer_a9cd87c59abc0337d3c2a21a4169d4170}} 
+\index{BinaryReaderWriter@{BinaryReaderWriter}!readNext@{readNext}}
+\index{readNext@{readNext}!BinaryReaderWriter@{BinaryReaderWriter}}
+\doxysubsubsection{\texorpdfstring{readNext()}{readNext()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_serializable}{Serializable}} $\ast$ Binary\+Reader\+Writer\+::read\+Next (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reads one instance of \mbox{\hyperlink{class_serializable}{Serializable}} class from buffer and move buffer pointer to the next 
+\begin{DoxyRetVals}{Return values}
+{\em instance} & of \mbox{\hyperlink{class_serializable}{Serializable}} class filled by values from its binary representation on buffer \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_binary_reader_writer_a5287a80f9e77470702e7d0b909c5fdce}\label{class_binary_reader_writer_a5287a80f9e77470702e7d0b909c5fdce}} 
+\index{BinaryReaderWriter@{BinaryReaderWriter}!write@{write}}
+\index{write@{write}!BinaryReaderWriter@{BinaryReaderWriter}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily bool Binary\+Reader\+Writer\+::write (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_serializable}{Serializable}} $\ast$}]{src }\end{DoxyParamCaption})}
+
+Binarize given \mbox{\hyperlink{class_serializable}{Serializable}} instance and give it to \mbox{\hyperlink{class_i_o_handler}{IOHandler}} for next steps (save/send..) 
+\begin{DoxyParams}{Parameters}
+{\em src} & is \mbox{\hyperlink{class_serializable}{Serializable}} instance to be serialized \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em true} & while succeedd \\
+\hline
+\end{DoxyRetVals}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_binary_reader_writer_8h}{Binary\+Reader\+Writer.\+h}}\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_binary_reader_writer_8cpp}{Binary\+Reader\+Writer.\+cpp}}\end{DoxyCompactItemize}

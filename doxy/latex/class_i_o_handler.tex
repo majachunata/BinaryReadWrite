@@ -1,0 +1,69 @@
+\hypertarget{class_i_o_handler}{}\doxysection{IOHandler Class Reference}
+\label{class_i_o_handler}\index{IOHandler@{IOHandler}}
+
+
+{\ttfamily \#include $<$IOHandler.\+h$>$}
+
+Inheritance diagram for IOHandler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_i_o_handler}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual size\+\_\+t \mbox{\hyperlink{class_i_o_handler_a041d3f27ea0a5c69580fd0cc40552e00}{load\+Data}} (char $\ast$dst, const int amount)=0
+\item 
+virtual void \mbox{\hyperlink{class_i_o_handler_a5999044a800414a055b29bbdbe3b826b}{save\+Data}} (char $\ast$src, const int amount)=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Input Output Handler interface defines basic functionality for every class operating on serialized data 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_i_o_handler_a041d3f27ea0a5c69580fd0cc40552e00}\label{class_i_o_handler_a041d3f27ea0a5c69580fd0cc40552e00}} 
+\index{IOHandler@{IOHandler}!loadData@{loadData}}
+\index{loadData@{loadData}!IOHandler@{IOHandler}}
+\doxysubsubsection{\texorpdfstring{loadData()}{loadData()}}
+{\footnotesize\ttfamily virtual size\+\_\+t IOHandler\+::load\+Data (\begin{DoxyParamCaption}\item[{char $\ast$}]{dst,  }\item[{const int}]{amount }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Load data of given amount to prepared buffer 
+\begin{DoxyParams}{Parameters}
+{\em dst} & stays for destination buffer where to put data \\
+\hline
+{\em amount} & says how much do we want to load \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em indicates} & amount of data actually loaded \\
+\hline
+\end{DoxyRetVals}
+
+
+Implemented in \mbox{\hyperlink{class_file_i_o_handler_a73d656b8516edfb3f3b69a55149f7421}{File\+IOHandler}}.
+
+\mbox{\Hypertarget{class_i_o_handler_a5999044a800414a055b29bbdbe3b826b}\label{class_i_o_handler_a5999044a800414a055b29bbdbe3b826b}} 
+\index{IOHandler@{IOHandler}!saveData@{saveData}}
+\index{saveData@{saveData}!IOHandler@{IOHandler}}
+\doxysubsubsection{\texorpdfstring{saveData()}{saveData()}}
+{\footnotesize\ttfamily virtual void IOHandler\+::save\+Data (\begin{DoxyParamCaption}\item[{char $\ast$}]{src,  }\item[{const int}]{amount }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Save data from buffer of given size 
+\begin{DoxyParams}{Parameters}
+{\em src} & is source buffer we want to save \\
+\hline
+{\em amount} & says how large buffer do we want to save \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_file_i_o_handler_ae542ff8be7825c3374d3e344ecaeb16e}{File\+IOHandler}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_i_o_handler_8h}{IOHandler.\+h}}\end{DoxyCompactItemize}

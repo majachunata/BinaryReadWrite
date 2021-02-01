@@ -152,6 +152,7 @@
     <ClCompile Include="BinaryReader.cpp" />
     <ClCompile Include="BinaryWriter.cpp" />
     <ClCompile Include="FileIOHandler.cpp" />
+    <ClCompile Include="MemIOHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BinaryReaderWriter.h" />
@@ -159,6 +160,7 @@
     <ClInclude Include="BinaryWriter.h" />
     <ClInclude Include="FileIOHandler.h" />
     <ClInclude Include="IOHandler.h" />
+    <ClInclude Include="MemIOHandler.h" />
     <ClInclude Include="NoserializableClass.h" />
     <ClInclude Include="SerializableClassSimple.h" />
     <ClInclude Include="Serializable.h" />

@@ -1,0 +1,245 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReadWrite"><param name="Local" value="md__c___users__jana_source_repos__binary_read_write__binary_read_write__r_e_a_d_m_e.html"><param name="ImageNumber" value="11"></OBJECT>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReader"><param name="Local" value="class_binary_reader.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReader"><param name="Local" value="class_binary_reader.html#a1018c5c8e09a38127b0744a7e5b78196"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~BinaryReader"><param name="Local" value="class_binary_reader.html#a32a4fe688e94789fa6231522f7c6e320"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_binary_reader.html#a72920963733ec11edaab51c00c64c8ca"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReaderWriter"><param name="Local" value="class_binary_reader_writer.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReaderWriter"><param name="Local" value="class_binary_reader_writer.html#ab5c75934a53d7056e996016ec56703f4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~BinaryReaderWriter"><param name="Local" value="class_binary_reader_writer.html#a2daf5e1cba5f0255c3dfb0e27351d6b9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_binary_reader_writer.html#a9cd87c59abc0337d3c2a21a4169d4170"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_binary_reader_writer.html#a5287a80f9e77470702e7d0b909c5fdce"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryWriter"><param name="Local" value="class_binary_writer.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryWriter"><param name="Local" value="class_binary_writer.html#a7c0de04a62181e952fe8c553110501fb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~BinaryWriter"><param name="Local" value="class_binary_writer.html#a14934a864b4547fdb99d831834162ac9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_binary_writer.html#a4693f8ab29408a556fcb1da67b16c37c"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileIOHandler"><param name="Local" value="class_file_i_o_handler.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="FileIOHandler"><param name="Local" value="class_file_i_o_handler.html#ae7a308c51738f6ab01b0610ea435c6a8"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~FileIOHandler"><param name="Local" value="class_file_i_o_handler.html#a74d3b924219f996a946bb4c2b5361fbb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="loadData"><param name="Local" value="class_file_i_o_handler.html#a73d656b8516edfb3f3b69a55149f7421"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="saveData"><param name="Local" value="class_file_i_o_handler.html#ae542ff8be7825c3374d3e344ecaeb16e"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="IOHandler"><param name="Local" value="class_i_o_handler.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="loadData"><param name="Local" value="class_i_o_handler.html#a041d3f27ea0a5c69580fd0cc40552e00"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="saveData"><param name="Local" value="class_i_o_handler.html#a5999044a800414a055b29bbdbe3b826b"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="NoserializableClass"><param name="Local" value="class_noserializable_class.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="NoserializableClass"><param name="Local" value="class_noserializable_class.html#a2cebc3cd2b57f3ac4f4a44307ce7327b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~NoserializableClass"><param name="Local" value="class_noserializable_class.html#a4d7d4f57c0ce2436d14be6957c474e70"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getId"><param name="Local" value="class_noserializable_class.html#af45d7705151d0588ef6b5a0b61bad5e9"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getName"><param name="Local" value="class_noserializable_class.html#a6d7f5e7f299401d5218a52a3fc08aa4b"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Serializable"><param name="Local" value="class_serializable.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getBinarySize"><param name="Local" value="class_serializable.html#a54829e20758ede63773fc4e4cb5c8083"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="printInfo"><param name="Local" value="class_serializable.html#aca6e1aa74583b7e5fc9be1c7d131d462"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_serializable.html#a3b23ff544b6c24b362e928348d84858d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_serializable.html#a82f73c6c11d10ce504de13b7445dec25"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple"><param name="Local" value="class_serializable_class_simple.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple"><param name="Local" value="class_serializable_class_simple.html#ab4c06e139f6df7cf0ee704448eae7576"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple"><param name="Local" value="class_serializable_class_simple.html#a289eccb803f240e9d045b18a4bc57988"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getBinarySize"><param name="Local" value="class_serializable_class_simple.html#a89a35979f01cf8f19004a1423296b47a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getLatitude"><param name="Local" value="class_serializable_class_simple.html#a2557efdb4e4264cd134ad896b97f5980"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getLongitude"><param name="Local" value="class_serializable_class_simple.html#a788c7b09898830c419e1451cdbe38032"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="printInfo"><param name="Local" value="class_serializable_class_simple.html#af666084222097c163b44fb4a0ad6a4c6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_serializable_class_simple.html#a58f80cabb9eccafe39d95f5b5e896a94"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_serializable_class_simple.html#a0bc0d11aa24a4dc06ec87f9aa6ea8363"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html#a1394723d34354dbd5e8dda2969522bb4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html#a6930048566020784ae7067b5d70a73b6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="~SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html#af0c6aa4e2f1b76ce70f2b5ac160f783d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getBinarySize"><param name="Local" value="class_serializable_class_with_pointer.html#a9daf6260bbee7a94e6da150adf9bf6be"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getDescription"><param name="Local" value="class_serializable_class_with_pointer.html#a382baf1bdd89acd020840698802d3af3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getId"><param name="Local" value="class_serializable_class_with_pointer.html#a83e7882e2799234405caa01e93e6008d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="printInfo"><param name="Local" value="class_serializable_class_with_pointer.html#a96af21288bd17774b64e7a5ba31eb114"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_serializable_class_with_pointer.html#aa583492a0f9b3de494d77957ce5ec866"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_serializable_class_with_pointer.html#a34aa8f2e687477f88a62c6955f8d4f35"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReader"><param name="Local" value="class_binary_reader.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReaderWriter"><param name="Local" value="class_binary_reader_writer.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryWriter"><param name="Local" value="class_binary_writer.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="IOHandler"><param name="Local" value="class_i_o_handler.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="FileIOHandler"><param name="Local" value="class_file_i_o_handler.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="NoserializableClass"><param name="Local" value="class_noserializable_class.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Serializable"><param name="Local" value="class_serializable.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple"><param name="Local" value="class_serializable_class_simple.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Users"><param name="Local" value="dir_d522931ffa1371640980b621734a4381.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="Jana"><param name="Local" value="dir_383fdd81000af9e613c00b86ee0b5cdd.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="source"><param name="Local" value="dir_a90c54f3837cdd14d903866432cc437b.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="repos"><param name="Local" value="dir_547e7a516ae779c23dc921ababd0a802.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReadWrite"><param name="Local" value="dir_3f53ad767fa3018d26c68796af11c291.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReadWrite"><param name="Local" value="dir_3c0892349a1740a2d908c215fe19009d.html"><param name="ImageNumber" value="1"></OBJECT>
+                <UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReader.cpp"><param name="Local" value="_binary_reader_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="DESER_CLASS_INSTANCE_GENERATOR"><param name="Local" value="_binary_reader_8cpp.html#ad9b019d48c6b22efdefb5fd1cb69e8fa"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="DESER_CLASS_NAME_STRING"><param name="Local" value="_binary_reader_8cpp.html#a854e13602803b4c60044c54e6c7c59ba"><param name="ImageNumber" value="11"></OBJECT>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="DESER_REGISTER_SERIALIZABLE_CLASS"><param name="Local" value="_binary_reader_8cpp.html#ab99aaf3fe88c21249476a2e0db258ab9"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReader.h"><param name="Local" value="_binary_reader_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReader"><param name="Local" value="class_binary_reader.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReader"><param name="Local" value="class_binary_reader.html#a1018c5c8e09a38127b0744a7e5b78196"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="~BinaryReader"><param name="Local" value="class_binary_reader.html#a32a4fe688e94789fa6231522f7c6e320"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_binary_reader.html#a72920963733ec11edaab51c00c64c8ca"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReaderWriter.cpp"><param name="Local" value="_binary_reader_writer_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReaderWriter.h"><param name="Local" value="_binary_reader_writer_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReaderWriter"><param name="Local" value="class_binary_reader_writer.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryReaderWriter"><param name="Local" value="class_binary_reader_writer.html#ab5c75934a53d7056e996016ec56703f4"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="~BinaryReaderWriter"><param name="Local" value="class_binary_reader_writer.html#a2daf5e1cba5f0255c3dfb0e27351d6b9"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_binary_reader_writer.html#a9cd87c59abc0337d3c2a21a4169d4170"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_binary_reader_writer.html#a5287a80f9e77470702e7d0b909c5fdce"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryWriter.cpp"><param name="Local" value="_binary_writer_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryWriter.h"><param name="Local" value="_binary_writer_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryWriter"><param name="Local" value="class_binary_writer.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="BinaryWriter"><param name="Local" value="class_binary_writer.html#a7c0de04a62181e952fe8c553110501fb"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="~BinaryWriter"><param name="Local" value="class_binary_writer.html#a14934a864b4547fdb99d831834162ac9"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_binary_writer.html#a4693f8ab29408a556fcb1da67b16c37c"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="FileIOHandler.cpp"><param name="Local" value="_file_i_o_handler_8cpp.html"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="FileIOHandler.h"><param name="Local" value="_file_i_o_handler_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="FileIOHandler"><param name="Local" value="class_file_i_o_handler.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileIOHandler"><param name="Local" value="class_file_i_o_handler.html#ae7a308c51738f6ab01b0610ea435c6a8"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="~FileIOHandler"><param name="Local" value="class_file_i_o_handler.html#a74d3b924219f996a946bb4c2b5361fbb"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="loadData"><param name="Local" value="class_file_i_o_handler.html#a73d656b8516edfb3f3b69a55149f7421"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="saveData"><param name="Local" value="class_file_i_o_handler.html#ae542ff8be7825c3374d3e344ecaeb16e"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="IOHandler.h"><param name="Local" value="_i_o_handler_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="IOHandler"><param name="Local" value="class_i_o_handler.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="loadData"><param name="Local" value="class_i_o_handler.html#a041d3f27ea0a5c69580fd0cc40552e00"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="saveData"><param name="Local" value="class_i_o_handler.html#a5999044a800414a055b29bbdbe3b826b"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="main.cpp"><param name="Local" value="main_8cpp.html"><param name="ImageNumber" value="1"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="main"><param name="Local" value="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"><param name="ImageNumber" value="11"></OBJECT>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="MemIOHandler.h"><param name="Local" value="_mem_i_o_handler_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="NoserializableClass.h"><param name="Local" value="_noserializable_class_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="NoserializableClass"><param name="Local" value="class_noserializable_class.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="NoserializableClass"><param name="Local" value="class_noserializable_class.html#a2cebc3cd2b57f3ac4f4a44307ce7327b"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="~NoserializableClass"><param name="Local" value="class_noserializable_class.html#a4d7d4f57c0ce2436d14be6957c474e70"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getId"><param name="Local" value="class_noserializable_class.html#af45d7705151d0588ef6b5a0b61bad5e9"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getName"><param name="Local" value="class_noserializable_class.html#a6d7f5e7f299401d5218a52a3fc08aa4b"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="Serializable.h"><param name="Local" value="_serializable_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="Serializable"><param name="Local" value="class_serializable.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getBinarySize"><param name="Local" value="class_serializable.html#a54829e20758ede63773fc4e4cb5c8083"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="printInfo"><param name="Local" value="class_serializable.html#aca6e1aa74583b7e5fc9be1c7d131d462"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_serializable.html#a3b23ff544b6c24b362e928348d84858d"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_serializable.html#a82f73c6c11d10ce504de13b7445dec25"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple.h"><param name="Local" value="_serializable_class_simple_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple"><param name="Local" value="class_serializable_class_simple.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple"><param name="Local" value="class_serializable_class_simple.html#ab4c06e139f6df7cf0ee704448eae7576"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassSimple"><param name="Local" value="class_serializable_class_simple.html#a289eccb803f240e9d045b18a4bc57988"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getBinarySize"><param name="Local" value="class_serializable_class_simple.html#a89a35979f01cf8f19004a1423296b47a"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getLatitude"><param name="Local" value="class_serializable_class_simple.html#a2557efdb4e4264cd134ad896b97f5980"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getLongitude"><param name="Local" value="class_serializable_class_simple.html#a788c7b09898830c419e1451cdbe38032"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="printInfo"><param name="Local" value="class_serializable_class_simple.html#af666084222097c163b44fb4a0ad6a4c6"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_serializable_class_simple.html#a58f80cabb9eccafe39d95f5b5e896a94"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_serializable_class_simple.html#a0bc0d11aa24a4dc06ec87f9aa6ea8363"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer.h"><param name="Local" value="_serializable_class_with_pointer_8h.html"><param name="ImageNumber" value="11"></OBJECT>
+                  <UL>
+                  <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html"><param name="ImageNumber" value="1"></OBJECT>
+                    <UL>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html#a1394723d34354dbd5e8dda2969522bb4"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html#a6930048566020784ae7067b5d70a73b6"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="~SerializableClassWithPointer"><param name="Local" value="class_serializable_class_with_pointer.html#af0c6aa4e2f1b76ce70f2b5ac160f783d"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getBinarySize"><param name="Local" value="class_serializable_class_with_pointer.html#a9daf6260bbee7a94e6da150adf9bf6be"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getDescription"><param name="Local" value="class_serializable_class_with_pointer.html#a382baf1bdd89acd020840698802d3af3"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="getId"><param name="Local" value="class_serializable_class_with_pointer.html#a83e7882e2799234405caa01e93e6008d"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="printInfo"><param name="Local" value="class_serializable_class_with_pointer.html#a96af21288bd17774b64e7a5ba31eb114"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="readNext"><param name="Local" value="class_serializable_class_with_pointer.html#aa583492a0f9b3de494d77957ce5ec866"><param name="ImageNumber" value="11"></OBJECT>
+                    <LI><OBJECT type="text/sitemap"><param name="Name" value="write"><param name="Local" value="class_serializable_class_with_pointer.html#a34aa8f2e687477f88a62c6955f8d4f35"><param name="ImageNumber" value="11"></OBJECT>
+                    </UL>
+                  </UL>
+                </UL>
+              </UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File Members"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="globals.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="globals_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Macros"><param name="Local" value="globals_defs.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

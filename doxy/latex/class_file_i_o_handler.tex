@@ -1,0 +1,89 @@
+\hypertarget{class_file_i_o_handler}{}\doxysection{File\+IOHandler Class Reference}
+\label{class_file_i_o_handler}\index{FileIOHandler@{FileIOHandler}}
+
+
+{\ttfamily \#include $<$File\+IOHandler.\+h$>$}
+
+Inheritance diagram for File\+IOHandler\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_file_i_o_handler}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_file_i_o_handler_ae7a308c51738f6ab01b0610ea435c6a8}{File\+IOHandler}} (const char $\ast$file\+Name)
+\item 
+\mbox{\hyperlink{class_file_i_o_handler_a74d3b924219f996a946bb4c2b5361fbb}{$\sim$\+File\+IOHandler}} ()
+\item 
+size\+\_\+t \mbox{\hyperlink{class_file_i_o_handler_a73d656b8516edfb3f3b69a55149f7421}{load\+Data}} (char $\ast$dst, const int amount) override
+\item 
+void \mbox{\hyperlink{class_file_i_o_handler_ae542ff8be7825c3374d3e344ecaeb16e}{save\+Data}} (char $\ast$src, const int amount) override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for read/write binary files implements \mbox{\hyperlink{class_i_o_handler}{IOHandler}} to be compatible with Binary\+Reader/\+Binary\+Writer 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_file_i_o_handler_ae7a308c51738f6ab01b0610ea435c6a8}\label{class_file_i_o_handler_ae7a308c51738f6ab01b0610ea435c6a8}} 
+\index{FileIOHandler@{FileIOHandler}!FileIOHandler@{FileIOHandler}}
+\index{FileIOHandler@{FileIOHandler}!FileIOHandler@{FileIOHandler}}
+\doxysubsubsection{\texorpdfstring{FileIOHandler()}{FileIOHandler()}}
+{\footnotesize\ttfamily File\+IOHandler\+::\+File\+IOHandler (\begin{DoxyParamCaption}\item[{const char $\ast$}]{file\+Name }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_file_i_o_handler_a74d3b924219f996a946bb4c2b5361fbb}\label{class_file_i_o_handler_a74d3b924219f996a946bb4c2b5361fbb}} 
+\index{FileIOHandler@{FileIOHandler}!````~FileIOHandler@{$\sim$FileIOHandler}}
+\index{````~FileIOHandler@{$\sim$FileIOHandler}!FileIOHandler@{FileIOHandler}}
+\doxysubsubsection{\texorpdfstring{$\sim$FileIOHandler()}{~FileIOHandler()}}
+{\footnotesize\ttfamily File\+IOHandler\+::$\sim$\+File\+IOHandler (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_file_i_o_handler_a73d656b8516edfb3f3b69a55149f7421}\label{class_file_i_o_handler_a73d656b8516edfb3f3b69a55149f7421}} 
+\index{FileIOHandler@{FileIOHandler}!loadData@{loadData}}
+\index{loadData@{loadData}!FileIOHandler@{FileIOHandler}}
+\doxysubsubsection{\texorpdfstring{loadData()}{loadData()}}
+{\footnotesize\ttfamily size\+\_\+t File\+IOHandler\+::load\+Data (\begin{DoxyParamCaption}\item[{char $\ast$}]{dst,  }\item[{const int}]{amount }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Load data of given amount to prepared buffer 
+\begin{DoxyParams}{Parameters}
+{\em dst} & stays for destination buffer where to put data \\
+\hline
+{\em amount} & says how much do we want to load \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em indicates} & amount of data actually loaded \\
+\hline
+\end{DoxyRetVals}
+
+
+Implements \mbox{\hyperlink{class_i_o_handler_a041d3f27ea0a5c69580fd0cc40552e00}{IOHandler}}.
+
+\mbox{\Hypertarget{class_file_i_o_handler_ae542ff8be7825c3374d3e344ecaeb16e}\label{class_file_i_o_handler_ae542ff8be7825c3374d3e344ecaeb16e}} 
+\index{FileIOHandler@{FileIOHandler}!saveData@{saveData}}
+\index{saveData@{saveData}!FileIOHandler@{FileIOHandler}}
+\doxysubsubsection{\texorpdfstring{saveData()}{saveData()}}
+{\footnotesize\ttfamily void File\+IOHandler\+::save\+Data (\begin{DoxyParamCaption}\item[{char $\ast$}]{src,  }\item[{const int}]{amount }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Save data from buffer of given size 
+\begin{DoxyParams}{Parameters}
+{\em src} & is source buffer we want to save \\
+\hline
+{\em amount} & says how large buffer do we want to save \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_i_o_handler_a5999044a800414a055b29bbdbe3b826b}{IOHandler}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_file_i_o_handler_8h}{File\+IOHandler.\+h}}\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_file_i_o_handler_8cpp}{File\+IOHandler.\+cpp}}\end{DoxyCompactItemize}

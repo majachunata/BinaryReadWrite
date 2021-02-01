@@ -1,2 +1,8 @@
-﻿  main.cpp
+﻿  BinaryReaderWriter.cpp
+  main.cpp
+  BinaryReader.cpp
+  BinaryWriter.cpp
+  FileIOHandler.cpp
+  MemIOHandler.cpp
+  Generating Code...
   BinaryReadWrite.vcxproj -> C:\Users\Jana\source\repos\BinaryReadWrite\Debug\BinaryReadWrite.exe

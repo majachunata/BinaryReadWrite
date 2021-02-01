@@ -1,0 +1,89 @@
+\hypertarget{class_serializable}{}\doxysection{Serializable Class Reference}
+\label{class_serializable}\index{Serializable@{Serializable}}
+
+
+{\ttfamily \#include $<$Serializable.\+h$>$}
+
+Inheritance diagram for Serializable\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_serializable}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual size\+\_\+t \mbox{\hyperlink{class_serializable_a54829e20758ede63773fc4e4cb5c8083}{get\+Binary\+Size}} () const =0
+\item 
+virtual void \mbox{\hyperlink{class_serializable_a82f73c6c11d10ce504de13b7445dec25}{write}} (void $\ast$buffer) const =0
+\item 
+virtual void \mbox{\hyperlink{class_serializable_a3b23ff544b6c24b362e928348d84858d}{read\+Next}} (void $\ast$buffer)=0
+\item 
+virtual void \mbox{\hyperlink{class_serializable_aca6e1aa74583b7e5fc9be1c7d131d462}{print\+Info}} ()=0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_serializable}{Serializable}} interface defines basic functionality for every data type which may be serialized 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_serializable_a54829e20758ede63773fc4e4cb5c8083}\label{class_serializable_a54829e20758ede63773fc4e4cb5c8083}} 
+\index{Serializable@{Serializable}!getBinarySize@{getBinarySize}}
+\index{getBinarySize@{getBinarySize}!Serializable@{Serializable}}
+\doxysubsubsection{\texorpdfstring{getBinarySize()}{getBinarySize()}}
+{\footnotesize\ttfamily virtual size\+\_\+t Serializable\+::get\+Binary\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Get size of buffer needed for serializing whole instance 
+\begin{DoxyRetVals}{Return values}
+{\em size} & of buffer needed for serializing whole instance \\
+\hline
+\end{DoxyRetVals}
+
+
+Implemented in \mbox{\hyperlink{class_serializable_class_with_pointer_a9daf6260bbee7a94e6da150adf9bf6be}{Serializable\+Class\+With\+Pointer}}, and \mbox{\hyperlink{class_serializable_class_simple_a89a35979f01cf8f19004a1423296b47a}{Serializable\+Class\+Simple}}.
+
+\mbox{\Hypertarget{class_serializable_aca6e1aa74583b7e5fc9be1c7d131d462}\label{class_serializable_aca6e1aa74583b7e5fc9be1c7d131d462}} 
+\index{Serializable@{Serializable}!printInfo@{printInfo}}
+\index{printInfo@{printInfo}!Serializable@{Serializable}}
+\doxysubsubsection{\texorpdfstring{printInfo()}{printInfo()}}
+{\footnotesize\ttfamily virtual void Serializable\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Prints brief overview of instance data -\/ for demonstration use only 
+
+Implemented in \mbox{\hyperlink{class_serializable_class_with_pointer_a96af21288bd17774b64e7a5ba31eb114}{Serializable\+Class\+With\+Pointer}}, and \mbox{\hyperlink{class_serializable_class_simple_af666084222097c163b44fb4a0ad6a4c6}{Serializable\+Class\+Simple}}.
+
+\mbox{\Hypertarget{class_serializable_a3b23ff544b6c24b362e928348d84858d}\label{class_serializable_a3b23ff544b6c24b362e928348d84858d}} 
+\index{Serializable@{Serializable}!readNext@{readNext}}
+\index{readNext@{readNext}!Serializable@{Serializable}}
+\doxysubsubsection{\texorpdfstring{readNext()}{readNext()}}
+{\footnotesize\ttfamily virtual void Serializable\+::read\+Next (\begin{DoxyParamCaption}\item[{void $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Fills itself with values deserialized from buffer 
+\begin{DoxyParams}{Parameters}
+{\em buffer} & with serialized version of instance data \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_serializable_class_with_pointer_aa583492a0f9b3de494d77957ce5ec866}{Serializable\+Class\+With\+Pointer}}, and \mbox{\hyperlink{class_serializable_class_simple_a58f80cabb9eccafe39d95f5b5e896a94}{Serializable\+Class\+Simple}}.
+
+\mbox{\Hypertarget{class_serializable_a82f73c6c11d10ce504de13b7445dec25}\label{class_serializable_a82f73c6c11d10ce504de13b7445dec25}} 
+\index{Serializable@{Serializable}!write@{write}}
+\index{write@{write}!Serializable@{Serializable}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily virtual void Serializable\+::write (\begin{DoxyParamCaption}\item[{void $\ast$}]{buffer }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Serialize instance to buffer provided 
+\begin{DoxyParams}{Parameters}
+{\em buffer} & where to save serialized informations. buffer is expected to be large enough \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_serializable_class_with_pointer_a34aa8f2e687477f88a62c6955f8d4f35}{Serializable\+Class\+With\+Pointer}}, and \mbox{\hyperlink{class_serializable_class_simple_a0bc0d11aa24a4dc06ec87f9aa6ea8363}{Serializable\+Class\+Simple}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_serializable_8h}{Serializable.\+h}}\end{DoxyCompactItemize}

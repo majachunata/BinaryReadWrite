@@ -1,0 +1,124 @@
+\hypertarget{class_serializable_class_simple}{}\doxysection{Serializable\+Class\+Simple Class Reference}
+\label{class_serializable_class_simple}\index{SerializableClassSimple@{SerializableClassSimple}}
+
+
+{\ttfamily \#include $<$Serializable\+Class\+Simple.\+h$>$}
+
+Inheritance diagram for Serializable\+Class\+Simple\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_serializable_class_simple}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_serializable_class_simple_ab4c06e139f6df7cf0ee704448eae7576}{Serializable\+Class\+Simple}} ()
+\item 
+\mbox{\hyperlink{class_serializable_class_simple_a289eccb803f240e9d045b18a4bc57988}{Serializable\+Class\+Simple}} (float longitude, float latitude)
+\item 
+const float \mbox{\hyperlink{class_serializable_class_simple_a788c7b09898830c419e1451cdbe38032}{get\+Longitude}} ()
+\item 
+const float \mbox{\hyperlink{class_serializable_class_simple_a2557efdb4e4264cd134ad896b97f5980}{get\+Latitude}} ()
+\item 
+size\+\_\+t \mbox{\hyperlink{class_serializable_class_simple_a89a35979f01cf8f19004a1423296b47a}{get\+Binary\+Size}} () const override
+\item 
+void \mbox{\hyperlink{class_serializable_class_simple_a0bc0d11aa24a4dc06ec87f9aa6ea8363}{write}} (void $\ast$buffer) const override
+\item 
+void \mbox{\hyperlink{class_serializable_class_simple_a58f80cabb9eccafe39d95f5b5e896a94}{read\+Next}} (void $\ast$buffer) override
+\item 
+void \mbox{\hyperlink{class_serializable_class_simple_af666084222097c163b44fb4a0ad6a4c6}{print\+Info}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class which can be serialized and doesn\textquotesingle{}t own any pointers so the serialized size is allways the same 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_serializable_class_simple_ab4c06e139f6df7cf0ee704448eae7576}\label{class_serializable_class_simple_ab4c06e139f6df7cf0ee704448eae7576}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!SerializableClassSimple@{SerializableClassSimple}}
+\index{SerializableClassSimple@{SerializableClassSimple}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{SerializableClassSimple()}{SerializableClassSimple()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Serializable\+Class\+Simple\+::\+Serializable\+Class\+Simple (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_serializable_class_simple_a289eccb803f240e9d045b18a4bc57988}\label{class_serializable_class_simple_a289eccb803f240e9d045b18a4bc57988}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!SerializableClassSimple@{SerializableClassSimple}}
+\index{SerializableClassSimple@{SerializableClassSimple}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{SerializableClassSimple()}{SerializableClassSimple()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Serializable\+Class\+Simple\+::\+Serializable\+Class\+Simple (\begin{DoxyParamCaption}\item[{float}]{longitude,  }\item[{float}]{latitude }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_serializable_class_simple_a89a35979f01cf8f19004a1423296b47a}\label{class_serializable_class_simple_a89a35979f01cf8f19004a1423296b47a}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!getBinarySize@{getBinarySize}}
+\index{getBinarySize@{getBinarySize}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{getBinarySize()}{getBinarySize()}}
+{\footnotesize\ttfamily size\+\_\+t Serializable\+Class\+Simple\+::get\+Binary\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Get size of buffer needed for serializing whole instance 
+\begin{DoxyRetVals}{Return values}
+{\em size} & of buffer needed for serializing whole instance \\
+\hline
+\end{DoxyRetVals}
+
+
+Implements \mbox{\hyperlink{class_serializable_a54829e20758ede63773fc4e4cb5c8083}{Serializable}}.
+
+\mbox{\Hypertarget{class_serializable_class_simple_a2557efdb4e4264cd134ad896b97f5980}\label{class_serializable_class_simple_a2557efdb4e4264cd134ad896b97f5980}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!getLatitude@{getLatitude}}
+\index{getLatitude@{getLatitude}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{getLatitude()}{getLatitude()}}
+{\footnotesize\ttfamily const float Serializable\+Class\+Simple\+::get\+Latitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_serializable_class_simple_a788c7b09898830c419e1451cdbe38032}\label{class_serializable_class_simple_a788c7b09898830c419e1451cdbe38032}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!getLongitude@{getLongitude}}
+\index{getLongitude@{getLongitude}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{getLongitude()}{getLongitude()}}
+{\footnotesize\ttfamily const float Serializable\+Class\+Simple\+::get\+Longitude (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_serializable_class_simple_af666084222097c163b44fb4a0ad6a4c6}\label{class_serializable_class_simple_af666084222097c163b44fb4a0ad6a4c6}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!printInfo@{printInfo}}
+\index{printInfo@{printInfo}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{printInfo()}{printInfo()}}
+{\footnotesize\ttfamily void Serializable\+Class\+Simple\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Prints brief overview of instance data -\/ for demonstration use only 
+
+Implements \mbox{\hyperlink{class_serializable_aca6e1aa74583b7e5fc9be1c7d131d462}{Serializable}}.
+
+\mbox{\Hypertarget{class_serializable_class_simple_a58f80cabb9eccafe39d95f5b5e896a94}\label{class_serializable_class_simple_a58f80cabb9eccafe39d95f5b5e896a94}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!readNext@{readNext}}
+\index{readNext@{readNext}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{readNext()}{readNext()}}
+{\footnotesize\ttfamily void Serializable\+Class\+Simple\+::read\+Next (\begin{DoxyParamCaption}\item[{void $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Fills itself with values deserialized from buffer 
+\begin{DoxyParams}{Parameters}
+{\em buffer} & with serialized version of instance data \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_serializable_a3b23ff544b6c24b362e928348d84858d}{Serializable}}.
+
+\mbox{\Hypertarget{class_serializable_class_simple_a0bc0d11aa24a4dc06ec87f9aa6ea8363}\label{class_serializable_class_simple_a0bc0d11aa24a4dc06ec87f9aa6ea8363}} 
+\index{SerializableClassSimple@{SerializableClassSimple}!write@{write}}
+\index{write@{write}!SerializableClassSimple@{SerializableClassSimple}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void Serializable\+Class\+Simple\+::write (\begin{DoxyParamCaption}\item[{void $\ast$}]{buffer }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Serialize instance to buffer provided 
+\begin{DoxyParams}{Parameters}
+{\em buffer} & where to save serialized informations. buffer is expected to be large enough \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_serializable_a82f73c6c11d10ce504de13b7445dec25}{Serializable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_serializable_class_simple_8h}{Serializable\+Class\+Simple.\+h}}\end{DoxyCompactItemize}

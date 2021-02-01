@@ -1,0 +1,37 @@
+\hypertarget{_binary_reader_8cpp}{}\doxysection{C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\+Binary\+Reader.cpp File Reference}
+\label{_binary_reader_8cpp}\index{C:/Users/Jana/source/repos/BinaryReadWrite/BinaryReadWrite/BinaryReader.cpp@{C:/Users/Jana/source/repos/BinaryReadWrite/BinaryReadWrite/BinaryReader.cpp}}
+{\ttfamily \#include $<$typeinfo$>$}\newline
+{\ttfamily \#include \char`\"{}Binary\+Reader.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}IOHandler.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Serializable\+Class\+Simple.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Serializable\+Class\+With\+Pointer.\+h\char`\"{}}\newline
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_binary_reader_8cpp_a854e13602803b4c60044c54e6c7c59ba}{DESER\+\_\+\+CLASS\+\_\+\+NAME\+\_\+\+STRING}}(class\+Name)~string(typeid(class\+Name).name())
+\item 
+\#define \mbox{\hyperlink{_binary_reader_8cpp_ad9b019d48c6b22efdefb5fd1cb69e8fa}{DESER\+\_\+\+CLASS\+\_\+\+INSTANCE\+\_\+\+GENERATOR}}(class\+Name)~\mbox{[}$\,$\mbox{]}()\{return new class\+Name();\}
+\item 
+\#define \mbox{\hyperlink{_binary_reader_8cpp_ab99aaf3fe88c21249476a2e0db258ab9}{DESER\+\_\+\+REGISTER\+\_\+\+SERIALIZABLE\+\_\+\+CLASS}}(class\+Name)~\{\mbox{\hyperlink{_binary_reader_8cpp_a854e13602803b4c60044c54e6c7c59ba}{DESER\+\_\+\+CLASS\+\_\+\+NAME\+\_\+\+STRING}}(class\+Name), \mbox{\hyperlink{_binary_reader_8cpp_ad9b019d48c6b22efdefb5fd1cb69e8fa}{DESER\+\_\+\+CLASS\+\_\+\+INSTANCE\+\_\+\+GENERATOR}}(class\+Name)\}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_binary_reader_8cpp_ad9b019d48c6b22efdefb5fd1cb69e8fa}\label{_binary_reader_8cpp_ad9b019d48c6b22efdefb5fd1cb69e8fa}} 
+\index{BinaryReader.cpp@{BinaryReader.cpp}!DESER\_CLASS\_INSTANCE\_GENERATOR@{DESER\_CLASS\_INSTANCE\_GENERATOR}}
+\index{DESER\_CLASS\_INSTANCE\_GENERATOR@{DESER\_CLASS\_INSTANCE\_GENERATOR}!BinaryReader.cpp@{BinaryReader.cpp}}
+\doxysubsubsection{\texorpdfstring{DESER\_CLASS\_INSTANCE\_GENERATOR}{DESER\_CLASS\_INSTANCE\_GENERATOR}}
+{\footnotesize\ttfamily \#define DESER\+\_\+\+CLASS\+\_\+\+INSTANCE\+\_\+\+GENERATOR(\begin{DoxyParamCaption}\item[{}]{class\+Name }\end{DoxyParamCaption})~\mbox{[}$\,$\mbox{]}()\{return new class\+Name();\}}
+
+\mbox{\Hypertarget{_binary_reader_8cpp_a854e13602803b4c60044c54e6c7c59ba}\label{_binary_reader_8cpp_a854e13602803b4c60044c54e6c7c59ba}} 
+\index{BinaryReader.cpp@{BinaryReader.cpp}!DESER\_CLASS\_NAME\_STRING@{DESER\_CLASS\_NAME\_STRING}}
+\index{DESER\_CLASS\_NAME\_STRING@{DESER\_CLASS\_NAME\_STRING}!BinaryReader.cpp@{BinaryReader.cpp}}
+\doxysubsubsection{\texorpdfstring{DESER\_CLASS\_NAME\_STRING}{DESER\_CLASS\_NAME\_STRING}}
+{\footnotesize\ttfamily \#define DESER\+\_\+\+CLASS\+\_\+\+NAME\+\_\+\+STRING(\begin{DoxyParamCaption}\item[{}]{class\+Name }\end{DoxyParamCaption})~string(typeid(class\+Name).name())}
+
+\mbox{\Hypertarget{_binary_reader_8cpp_ab99aaf3fe88c21249476a2e0db258ab9}\label{_binary_reader_8cpp_ab99aaf3fe88c21249476a2e0db258ab9}} 
+\index{BinaryReader.cpp@{BinaryReader.cpp}!DESER\_REGISTER\_SERIALIZABLE\_CLASS@{DESER\_REGISTER\_SERIALIZABLE\_CLASS}}
+\index{DESER\_REGISTER\_SERIALIZABLE\_CLASS@{DESER\_REGISTER\_SERIALIZABLE\_CLASS}!BinaryReader.cpp@{BinaryReader.cpp}}
+\doxysubsubsection{\texorpdfstring{DESER\_REGISTER\_SERIALIZABLE\_CLASS}{DESER\_REGISTER\_SERIALIZABLE\_CLASS}}
+{\footnotesize\ttfamily \#define DESER\+\_\+\+REGISTER\+\_\+\+SERIALIZABLE\+\_\+\+CLASS(\begin{DoxyParamCaption}\item[{}]{class\+Name }\end{DoxyParamCaption})~\{\mbox{\hyperlink{_binary_reader_8cpp_a854e13602803b4c60044c54e6c7c59ba}{DESER\+\_\+\+CLASS\+\_\+\+NAME\+\_\+\+STRING}}(class\+Name), \mbox{\hyperlink{_binary_reader_8cpp_ad9b019d48c6b22efdefb5fd1cb69e8fa}{DESER\+\_\+\+CLASS\+\_\+\+INSTANCE\+\_\+\+GENERATOR}}(class\+Name)\}}
+

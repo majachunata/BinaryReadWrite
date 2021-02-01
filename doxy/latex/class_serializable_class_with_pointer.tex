@@ -1,0 +1,132 @@
+\hypertarget{class_serializable_class_with_pointer}{}\doxysection{Serializable\+Class\+With\+Pointer Class Reference}
+\label{class_serializable_class_with_pointer}\index{SerializableClassWithPointer@{SerializableClassWithPointer}}
+
+
+{\ttfamily \#include $<$Serializable\+Class\+With\+Pointer.\+h$>$}
+
+Inheritance diagram for Serializable\+Class\+With\+Pointer\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_serializable_class_with_pointer}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_serializable_class_with_pointer_a1394723d34354dbd5e8dda2969522bb4}{Serializable\+Class\+With\+Pointer}} ()
+\item 
+\mbox{\hyperlink{class_serializable_class_with_pointer_a6930048566020784ae7067b5d70a73b6}{Serializable\+Class\+With\+Pointer}} (int id, const char $\ast$desc, int desc\+Len)
+\item 
+\mbox{\hyperlink{class_serializable_class_with_pointer_af0c6aa4e2f1b76ce70f2b5ac160f783d}{$\sim$\+Serializable\+Class\+With\+Pointer}} ()
+\item 
+int \mbox{\hyperlink{class_serializable_class_with_pointer_a83e7882e2799234405caa01e93e6008d}{get\+Id}} () const
+\item 
+const char $\ast$ \mbox{\hyperlink{class_serializable_class_with_pointer_a382baf1bdd89acd020840698802d3af3}{get\+Description}} () const
+\item 
+size\+\_\+t \mbox{\hyperlink{class_serializable_class_with_pointer_a9daf6260bbee7a94e6da150adf9bf6be}{get\+Binary\+Size}} () const override
+\item 
+void \mbox{\hyperlink{class_serializable_class_with_pointer_a34aa8f2e687477f88a62c6955f8d4f35}{write}} (void $\ast$buffer) const override
+\item 
+void \mbox{\hyperlink{class_serializable_class_with_pointer_aa583492a0f9b3de494d77957ce5ec866}{read\+Next}} (void $\ast$buffer) override
+\item 
+void \mbox{\hyperlink{class_serializable_class_with_pointer_a96af21288bd17774b64e7a5ba31eb114}{print\+Info}} () override
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class which can be serialized and owns pointer so the serialized size is different for each instance 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_serializable_class_with_pointer_a1394723d34354dbd5e8dda2969522bb4}\label{class_serializable_class_with_pointer_a1394723d34354dbd5e8dda2969522bb4}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{SerializableClassWithPointer()}{SerializableClassWithPointer()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Serializable\+Class\+With\+Pointer\+::\+Serializable\+Class\+With\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_serializable_class_with_pointer_a6930048566020784ae7067b5d70a73b6}\label{class_serializable_class_with_pointer_a6930048566020784ae7067b5d70a73b6}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{SerializableClassWithPointer()}{SerializableClassWithPointer()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Serializable\+Class\+With\+Pointer\+::\+Serializable\+Class\+With\+Pointer (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{const char $\ast$}]{desc,  }\item[{int}]{desc\+Len }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_serializable_class_with_pointer_af0c6aa4e2f1b76ce70f2b5ac160f783d}\label{class_serializable_class_with_pointer_af0c6aa4e2f1b76ce70f2b5ac160f783d}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!````~SerializableClassWithPointer@{$\sim$SerializableClassWithPointer}}
+\index{````~SerializableClassWithPointer@{$\sim$SerializableClassWithPointer}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{$\sim$SerializableClassWithPointer()}{~SerializableClassWithPointer()}}
+{\footnotesize\ttfamily Serializable\+Class\+With\+Pointer\+::$\sim$\+Serializable\+Class\+With\+Pointer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_serializable_class_with_pointer_a9daf6260bbee7a94e6da150adf9bf6be}\label{class_serializable_class_with_pointer_a9daf6260bbee7a94e6da150adf9bf6be}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!getBinarySize@{getBinarySize}}
+\index{getBinarySize@{getBinarySize}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{getBinarySize()}{getBinarySize()}}
+{\footnotesize\ttfamily size\+\_\+t Serializable\+Class\+With\+Pointer\+::get\+Binary\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Get size of buffer needed for serializing whole instance 
+\begin{DoxyRetVals}{Return values}
+{\em size} & of buffer needed for serializing whole instance \\
+\hline
+\end{DoxyRetVals}
+
+
+Implements \mbox{\hyperlink{class_serializable_a54829e20758ede63773fc4e4cb5c8083}{Serializable}}.
+
+\mbox{\Hypertarget{class_serializable_class_with_pointer_a382baf1bdd89acd020840698802d3af3}\label{class_serializable_class_with_pointer_a382baf1bdd89acd020840698802d3af3}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!getDescription@{getDescription}}
+\index{getDescription@{getDescription}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{getDescription()}{getDescription()}}
+{\footnotesize\ttfamily const char$\ast$ Serializable\+Class\+With\+Pointer\+::get\+Description (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_serializable_class_with_pointer_a83e7882e2799234405caa01e93e6008d}\label{class_serializable_class_with_pointer_a83e7882e2799234405caa01e93e6008d}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!getId@{getId}}
+\index{getId@{getId}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{getId()}{getId()}}
+{\footnotesize\ttfamily int Serializable\+Class\+With\+Pointer\+::get\+Id (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\mbox{\Hypertarget{class_serializable_class_with_pointer_a96af21288bd17774b64e7a5ba31eb114}\label{class_serializable_class_with_pointer_a96af21288bd17774b64e7a5ba31eb114}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!printInfo@{printInfo}}
+\index{printInfo@{printInfo}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{printInfo()}{printInfo()}}
+{\footnotesize\ttfamily void Serializable\+Class\+With\+Pointer\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Prints brief overview of instance data -\/ for demonstration use only 
+
+Implements \mbox{\hyperlink{class_serializable_aca6e1aa74583b7e5fc9be1c7d131d462}{Serializable}}.
+
+\mbox{\Hypertarget{class_serializable_class_with_pointer_aa583492a0f9b3de494d77957ce5ec866}\label{class_serializable_class_with_pointer_aa583492a0f9b3de494d77957ce5ec866}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!readNext@{readNext}}
+\index{readNext@{readNext}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{readNext()}{readNext()}}
+{\footnotesize\ttfamily void Serializable\+Class\+With\+Pointer\+::read\+Next (\begin{DoxyParamCaption}\item[{void $\ast$}]{buffer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Fills itself with values deserialized from buffer 
+\begin{DoxyParams}{Parameters}
+{\em buffer} & with serialized version of instance data \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_serializable_a3b23ff544b6c24b362e928348d84858d}{Serializable}}.
+
+\mbox{\Hypertarget{class_serializable_class_with_pointer_a34aa8f2e687477f88a62c6955f8d4f35}\label{class_serializable_class_with_pointer_a34aa8f2e687477f88a62c6955f8d4f35}} 
+\index{SerializableClassWithPointer@{SerializableClassWithPointer}!write@{write}}
+\index{write@{write}!SerializableClassWithPointer@{SerializableClassWithPointer}}
+\doxysubsubsection{\texorpdfstring{write()}{write()}}
+{\footnotesize\ttfamily void Serializable\+Class\+With\+Pointer\+::write (\begin{DoxyParamCaption}\item[{void $\ast$}]{buffer }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Serialize instance to buffer provided 
+\begin{DoxyParams}{Parameters}
+{\em buffer} & where to save serialized informations. buffer is expected to be large enough \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_serializable_a82f73c6c11d10ce504de13b7445dec25}{Serializable}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jana/source/repos/\+Binary\+Read\+Write/\+Binary\+Read\+Write/\mbox{\hyperlink{_serializable_class_with_pointer_8h}{Serializable\+Class\+With\+Pointer.\+h}}\end{DoxyCompactItemize}

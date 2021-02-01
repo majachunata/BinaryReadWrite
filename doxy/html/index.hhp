@@ -1,0 +1,93 @@
+[OPTIONS]
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=Simple data serializer deserializer
+
+[WINDOWS]
+main="Simple data serializer deserializer","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+_binary_reader_8cpp.html
+_binary_reader_8h.html
+_binary_reader_8h_source.html
+_binary_reader_writer_8cpp.html
+_binary_reader_writer_8h.html
+_binary_reader_writer_8h_source.html
+_binary_writer_8cpp.html
+_binary_writer_8h.html
+_binary_writer_8h_source.html
+_file_i_o_handler_8cpp.html
+_file_i_o_handler_8h.html
+_file_i_o_handler_8h_source.html
+_i_o_handler_8h.html
+_i_o_handler_8h_source.html
+_mem_i_o_handler_8h.html
+_mem_i_o_handler_8h_source.html
+_noserializable_class_8h.html
+_noserializable_class_8h_source.html
+_r_e_a_d_m_e_8md.html
+_serializable_8h.html
+_serializable_8h_source.html
+_serializable_class_simple_8h.html
+_serializable_class_simple_8h_source.html
+_serializable_class_with_pointer_8h.html
+_serializable_class_with_pointer_8h_source.html
+annotated.html
+class_binary_reader-members.html
+class_binary_reader.html
+class_binary_reader_writer-members.html
+class_binary_reader_writer.html
+class_binary_writer-members.html
+class_binary_writer.html
+class_file_i_o_handler-members.html
+class_file_i_o_handler.html
+class_i_o_handler-members.html
+class_i_o_handler.html
+class_noserializable_class-members.html
+class_noserializable_class.html
+class_serializable-members.html
+class_serializable.html
+class_serializable_class_simple-members.html
+class_serializable_class_simple.html
+class_serializable_class_with_pointer-members.html
+class_serializable_class_with_pointer.html
+classes.html
+dir_383fdd81000af9e613c00b86ee0b5cdd.html
+dir_3c0892349a1740a2d908c215fe19009d.html
+dir_3f53ad767fa3018d26c68796af11c291.html
+dir_547e7a516ae779c23dc921ababd0a802.html
+dir_a90c54f3837cdd14d903866432cc437b.html
+dir_d522931ffa1371640980b621734a4381.html
+files.html
+functions.html
+functions_func.html
+globals.html
+globals_defs.html
+globals_func.html
+hierarchy.html
+index.html
+main_8cpp.html
+md__c___users__jana_source_repos__binary_read_write__binary_read_write__r_e_a_d_m_e.html
+pages.html
+bc_s.png
+bdwn.png
+class_file_i_o_handler.png
+class_i_o_handler.png
+class_serializable.png
+class_serializable_class_simple.png
+class_serializable_class_with_pointer.png
+closed.png
+nav_f.png
+nav_h.png
+open.png
+sync_off.png
+sync_on.png
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png
