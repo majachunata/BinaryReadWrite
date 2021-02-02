@@ -1,4 +1,5 @@
-﻿  main.cpp
+﻿  BinaryReaderWriter.cpp
+  main.cpp
   BinaryReader.cpp
   BinaryWriter.cpp
   FileIOHandler.cpp

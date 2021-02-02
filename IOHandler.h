@@ -20,7 +20,9 @@ public:
 	 * @param src is source buffer we want to save
 	 * @param amount says how large buffer do we want to save
 	 */
-	virtual void saveData(char* src, const int amount) = 0;
+	virtual void saveData(const char* src, const int amount) = 0;
+
+	virtual ~IOHandler() {};
 };
 
 #endif //IO_HANDLER_H

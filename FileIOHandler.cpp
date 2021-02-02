@@ -4,11 +4,10 @@
 
 using namespace std;
 
-FileIOHandler::FileIOHandler(const char* fileName) : m_fileName(fileName), m_readIdx(0){}
+FileIOHandler::FileIOHandler(const char* fileName) : m_fileName(string(fileName)), m_readIdx(0){}
 
 FileIOHandler::~FileIOHandler()
 {
-	delete m_fileName;
 }
 
 size_t FileIOHandler::loadData(char* dst, const int amount)
@@ -33,7 +32,7 @@ size_t FileIOHandler::loadData(char* dst, const int amount)
 	return 0;
 }
 
-void FileIOHandler::saveData(char* src, const int amount)
+void FileIOHandler::saveData(const char* src, const int amount)
 {
 	ofstream file(m_fileName, ios::out | ios::app | ios::binary);
 	if (file.is_open())

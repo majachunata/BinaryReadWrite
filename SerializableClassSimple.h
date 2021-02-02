@@ -5,8 +5,6 @@
 
 #include "Serializable.h"
 
-using namespace std;
-
 /**
 * Class which can be serialized and doesn't own any pointers so the serialized size is allways the same
  */
@@ -45,7 +43,7 @@ public:
 
 	void printInfo() override
 	{
-		cout << "SerializableClassSimple long: " << m_longitude << ", lat: " << m_latitude << endl;
+		std::cout << "SerializableClassSimple long: " << m_longitude << ", lat: " << m_latitude << std::endl;
 	}
 };
 

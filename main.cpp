@@ -15,8 +15,7 @@ int main()
 {
 	//init classes to play with
 	SerializableClassSimple* serializableSimple = new SerializableClassSimple(27.1127f, 109.3497f);
-	string someDescription("Once upon a time");
-	SerializableClassWithPointer* serializablePtr = new SerializableClassWithPointer(42, someDescription.c_str() + '\0', someDescription.size() + sizeof(char));
+	SerializableClassWithPointer* serializablePtr = new SerializableClassWithPointer(42, new string("Once upon a time"));
 	NoserializableClass* noserializable =  new NoserializableClass(new string("You shall not pass"), 6378);
 	
 	//write instances to file
@@ -40,5 +39,10 @@ int main()
 	}
 
 	cout << "A to je vse pratele" << endl;
+
+	delete serializableSimple;
+	delete serializablePtr;
+	delete noserializable;
+	
 	return 0;
 }

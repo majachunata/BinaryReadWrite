@@ -13,8 +13,8 @@ BinaryWriter::BinaryWriter(IOHandler* ioHandler) : m_ioHandler(ioHandler), m_buf
 BinaryWriter::~BinaryWriter()
 {
 	flushBuffer();
-	delete m_buffer;
 	delete m_ioHandler;
+	delete[] m_buffer;
 }
 
 bool BinaryWriter::reserveBuffer(size_t buffSize)

@@ -29,6 +29,8 @@ public:
      * Prints brief overview of instance data - for demonstration use only
      */
     virtual void printInfo() = 0;
+
+    virtual ~Serializable(){};
 };
 
 #endif //SERIALIZABLE_H

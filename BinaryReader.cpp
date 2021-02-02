@@ -5,9 +5,11 @@
 #include "SerializableClassSimple.h"
 #include "SerializableClassWithPointer.h"
 
-#define DESER_CLASS_NAME_STRING(className)				string(typeid(className).name())
+#define DESER_CLASS_NAME_STRING(className)				std::string(typeid(className).name())
 #define DESER_CLASS_INSTANCE_GENERATOR(className)		[](){return new className();}
 #define DESER_REGISTER_SERIALIZABLE_CLASS(className)	{DESER_CLASS_NAME_STRING(className), DESER_CLASS_INSTANCE_GENERATOR(className)}
+
+using namespace std;
 
 BinaryReader::serializableMapType BinaryReader::serializableMap =
 {
@@ -22,8 +24,8 @@ BinaryReader::BinaryReader(IOHandler* ioHandler) : m_ioHandler(ioHandler), m_buf
 
 BinaryReader::~BinaryReader()
 {
-	delete m_buffer;
 	delete m_ioHandler;
+	delete[] m_buffer;
 }
 
 Serializable* BinaryReader::getInstance(const char* className)

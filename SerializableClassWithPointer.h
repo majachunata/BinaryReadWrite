@@ -5,28 +5,26 @@
 
 #include "Serializable.h"
 
-using namespace std;
-
 /**
 * Class which can be serialized and owns pointer so the serialized size is different for each instance
  */
 class SerializableClassWithPointer : public Serializable
 {
 private:
-	const char* m_desc;
+	std::string* m_desc;
 	int m_descLen;
 	int m_id;
 
 public:
 	SerializableClassWithPointer() : m_id(0), m_desc(nullptr), m_descLen(0) {};
-	SerializableClassWithPointer(int id, const char* desc, int descLen) : m_id(id), m_desc(desc), m_descLen(descLen) {};
+	SerializableClassWithPointer(int id, std::string* desc) : m_id(id), m_desc(desc), m_descLen(desc->size()) {};
 	~SerializableClassWithPointer()
 	{
 		delete m_desc;
 	}
 
 	int getId() const { return m_id; };
-	const char* getDescription() const { return m_desc; };
+	const char* getDescription() const { return m_desc->c_str(); };
 
 	size_t getBinarySize() const override
 	{
@@ -54,14 +52,15 @@ public:
 		{
 			delete m_desc;
 		}
-		m_desc = new char[m_descLen];
+		char* desc = new char[m_descLen];
 
-		std::memcpy(const_cast<char*>(m_desc), &intBuff[2], m_descLen);
+		std::memcpy(desc, &intBuff[2], m_descLen);
+		m_desc = new std::string(desc);
 	};
 
 	void printInfo() override
 	{
-		cout << "SerializableClassWithPointer id: " << m_id << ", desc: " << m_desc << endl;
+		std::cout << "SerializableClassWithPointer id: " << m_id << ", desc: " << m_desc << std::endl;
 	}
 };
 

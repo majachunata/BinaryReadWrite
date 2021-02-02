@@ -5,8 +5,6 @@
 #include <functional>
 #include <map>
 
-using namespace std;
-
 class IOHandler;
 class Serializable;
 
@@ -19,7 +17,7 @@ private:
 	static constexpr const size_t DEFAULT_BUFFER_SIZE = 1024;
 	
 	//map to get new class instance based on class name. Each Serializable has to be inserted to map manually!
-	typedef map<string, function<Serializable * ()>> serializableMapType;
+	typedef std::map<std::string, std::function<Serializable * ()>> serializableMapType;
 	static serializableMapType serializableMap;		
 
 	IOHandler* m_ioHandler;		//handler class to take care of binarized data
