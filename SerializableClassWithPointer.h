@@ -17,7 +17,7 @@ private:
 
 public:
 	SerializableClassWithPointer() : m_id(0), m_desc(nullptr), m_descLen(0) {};
-	SerializableClassWithPointer(int id, std::string* desc) : m_id(id), m_desc(desc), m_descLen(desc->size()) {};
+	SerializableClassWithPointer(int id, std::string* desc) : m_id(id), m_desc(desc), m_descLen(desc->size() + 1) {};
 	~SerializableClassWithPointer()
 	{
 		delete m_desc;
@@ -39,7 +39,7 @@ public:
 		intBuff[1] = m_descLen;
 		char* charBuff = static_cast<char*>(buffer);
 		charBuff = &charBuff[sizeof(int) << 1];
-		std::memcpy(charBuff, m_desc, m_descLen);
+		std::memcpy(charBuff, m_desc->c_str(), m_descLen);
 	};
 
 	void readNext(const void* buffer) override
@@ -60,7 +60,7 @@ public:
 
 	void printInfo() override
 	{
-		std::cout << "SerializableClassWithPointer id: " << m_id << ", desc: " << m_desc << std::endl;
+		std::cout << "SerializableClassWithPointer id: " << m_id << ", desc: " << *m_desc << std::endl;
 	}
 };
 
