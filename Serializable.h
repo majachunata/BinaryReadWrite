@@ -23,7 +23,7 @@ public:
      * Fills itself with values deserialized from buffer
      * @param buffer with serialized version of instance data
      */
-    virtual void readNext(void* buffer) = 0;
+    virtual void readNext(const void* buffer) = 0;
 
     /**
      * Prints brief overview of instance data - for demonstration use only

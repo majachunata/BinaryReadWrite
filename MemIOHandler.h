@@ -20,7 +20,7 @@ public:
 	MemIOHandler();
 	~MemIOHandler();
 	size_t loadData(char* dst, const int amount) override;
-	void saveData(char* src, const int amount) override;
+	void saveData(const char* src, const int amount) override;
 };
 
 #endif //MEM_IO_HANDLER_H

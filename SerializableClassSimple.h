@@ -36,9 +36,9 @@ public:
 
 	};
 
-	void readNext(void* buffer) override
+	void readNext(const void* buffer) override
 	{
-		float* floatBuff = static_cast<float*>(buffer);
+		const float* floatBuff = static_cast<const float*>(buffer);
 		m_longitude = floatBuff[0];
 		m_latitude = floatBuff[1];
 	};

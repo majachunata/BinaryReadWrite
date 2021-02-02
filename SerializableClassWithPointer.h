@@ -44,9 +44,9 @@ public:
 		std::memcpy(charBuff, m_desc, m_descLen);
 	};
 
-	void readNext(void* buffer) override
+	void readNext(const void* buffer) override
 	{
-		int* intBuff = static_cast<int*>(buffer);
+		const int* intBuff = static_cast<const int*>(buffer);
 	
 		m_id = intBuff[0];
 		m_descLen = intBuff[1];
